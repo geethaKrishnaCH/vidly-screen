@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import './App.css';
+import Movies from "./components/Movies";
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
-        <h1>Welcome to Vidly App</h1>
-      </React.Fragment>
+      <main className="container">
+        <Movies />
+      </main>
     );
   }
 }
